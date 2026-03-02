@@ -34,7 +34,7 @@ export function AgentsGrid() {
                   </div>
                   <span
                     className={`rounded-full px-3 py-1 text-xs font-medium ${
-                      agent.status === "Online"
+                      agent.featured
                         ? "border border-verified-green/30 bg-verified-green/10 text-verified-green"
                         : "border border-border-white bg-background text-secondary-text"
                     }`}
