@@ -1,6 +1,6 @@
 export const roadmapSteps = [
     {
-        date: 'March 1',
+        date: 'March 2',
         title: 'Foundation',
         description: 'Technical blueprint and public website launch.',
         status: 'current',
