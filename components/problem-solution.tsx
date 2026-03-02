@@ -48,7 +48,7 @@ export function ProblemSolution() {
           <h3 className="text-2xl font-semibold text-primary-text">
             Teammate AI, not autopilot AI
           </h3>
-          <p className="mt-4 max-w-3xl text-lg leading-8 text-secondary-text">
+          <p className="mt-4 text-lg leading-8 text-secondary-text">
             Team8AI removes the grunt work while keeping the human pilot
             responsible for judgment, approval, and professional integrity. The
             goal is not to remove the human. The goal is to remove the

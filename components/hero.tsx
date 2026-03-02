@@ -11,7 +11,7 @@ import { Container } from "./container";
 const statusItems = [
   {
     label: "Agents online",
-    value: "8 / 8",
+    value: "0 / 8",
     icon: Cpu,
     state: "text-accent-blue",
   },
@@ -23,7 +23,7 @@ const statusItems = [
   },
   {
     label: "Verifier",
-    value: "Online",
+    value: "Offline",
     icon: ShieldCheck,
     state: "text-verified-green",
   },
@@ -59,7 +59,7 @@ export function Hero() {
 
           <div className="space-y-5">
             <h1 className="max-w-4xl text-4xl font-semibold tracking-tight text-primary-text md:text-6xl">
-              Team8AI: Your Career Search, Powered by a Squad of 8 AI Agents.
+              <span className="bg-accent-blue">Team8AI:</span> Your Career Search, Powered by a Squad of 8 AI Agents.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-secondary-text md:text-xl">
               Moving beyond blind automation to a human-led partnership. Solving
@@ -129,12 +129,10 @@ export function Hero() {
               Recent log
             </p>
             <div className="mt-3 space-y-3 text-sm text-secondary-text">
-              <p>Collector → Parsed job description</p>
+              <p className="text-verified-green">Collector → Parsed job description</p>
               <p>Gatekeeper → Fit score queued</p>
               <p>Resume Tailor → Draft ready</p>
-              <p className="text-verified-green">
-                Verifier → Claim check passed
-              </p>
+              <p>Verifier → Claim check passed</p>
               <p>Submitter → Awaiting approval</p>
             </div>
           </div>
